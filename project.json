@@ -1,0 +1,19 @@
+{
+    "name": "Git labels maker",
+    "ver": "1.0",
+    "author": "E. Sukhodolskiy",
+    "tags": [
+        "script",
+        "git",
+        "js",
+        "web"
+    ],
+    "type": "web",
+    "main_lang": "js",
+    "status": "open",
+    "project_color": "#D7F205",
+    "git_url": null,
+    "release_url": null,
+    "favicon": null,
+    "description": "Script for fast creating labels to new repo in git"
+}
