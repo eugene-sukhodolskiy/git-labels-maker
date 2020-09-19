@@ -4,7 +4,7 @@
 	{"label": "js", "color": "#f0db4f", "description": "Language"},
 	{"label": "create", "color": "#8af2d4", "description": "create something new"},
 	{"label": "design", "color": "#890b33", "description": "design this", "inverse": true},
-	{"label": "inprogress", "color": "#1d6bc4", "description": "Now in progress", "inverse": true},
+	{"label": "inprogress", "color": "#322a8c", "description": "Now in progress", "inverse": true},
 	{"label": "rewrite", "color": "#b217c6", "description": "Need to rewrite", "inverse": true},
 	{"label": "remove", "color": "#f4b238", "description": "Remove this"},
 	{"label": "component", "color": "#006b75", "description": "Work with component", "inverse": true},
