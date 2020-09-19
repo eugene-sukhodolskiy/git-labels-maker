@@ -1,6 +1,6 @@
 class App{
 	constructor(){
-		this.labelsJSONFileURL = "/labels.json"
+		this.labelsJSONFileURL = "./labels.json"
 		this.labels = [];
 	}
 
