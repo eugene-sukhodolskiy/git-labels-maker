@@ -1,0 +1,68 @@
+.advantages{
+	background-color: var(--color-default);
+	padding: 20px 20px;
+	border-radius: var(--border-radius);
+	padding-bottom: 1px;
+}
+
+.advantages.primary{
+	background-color: var(--color-primary);
+	color: #fff;
+}
+
+.advantages.success{
+	background-color: var(--color-success);
+	color: #fff;
+}
+
+.advantages.warning{
+	background-color: var(--color-warning);
+}
+
+.advantages.danger{
+	background-color: var(--color-danger);
+	color: #fff;
+}
+
+.advantages .heading{
+	margin-top: 0;
+}
+
+.advantages-list{
+	list-style-type: none;
+	padding-left: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	grid-gap: 0;
+}
+
+.advantage-item{
+	margin-left: 0;
+}
+
+.advantage-item ion-icon{
+	margin-right: 15px;
+	padding: 15px;
+	background-color: rgba(255, 255, 255, .2);
+	border-radius: 100px;
+}
+
+.advantage-label{
+	width: 100%;
+	top: -13px;
+	position: relative;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+@media (max-width: 992px){
+	.advantages-list{
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 768px){
+	.advantage-label{
+		font-size: 1rem;
+	}
+}

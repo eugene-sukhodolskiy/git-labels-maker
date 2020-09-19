@@ -1,0 +1,30 @@
+/* LOADER */
+
+.loader{
+	width: 100%;
+	height: 0px;
+	text-align: center;
+	visibility: hidden;
+	opacity: 0;
+	transition-property: opacity, visibility, height;
+	transition-duration: var(--animation-du);
+}
+
+.loader img{
+	height: 100%;
+	width: auto;
+}
+
+.loader.show{
+	visibility: visible;
+	opacity: 1;
+	height: 64px;
+}
+
+.loader.show.sm{
+	height: 24px;
+}
+
+.loader.show.md{
+	height: 32px;
+}

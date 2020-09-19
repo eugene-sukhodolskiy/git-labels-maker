@@ -1,0 +1,26 @@
+/* BLOCKS */
+
+.block{
+	padding: 15px 0;
+	margin: 15px 0;
+}
+
+.block.big{
+	padding: 25px 0;
+	margin: 25px 0;
+}
+
+.block.small{
+	padding: 10px 0;
+	margin: 10px 0;
+}
+
+.block > .block:first-of-type{
+	padding-top: 0;
+	margin-top: 0;
+}
+
+.block > .block:last-of-type{
+	padding-bottom: 0;
+	margin-bottom: 0;
+}

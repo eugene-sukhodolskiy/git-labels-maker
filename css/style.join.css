@@ -1,0 +1,33 @@
+@join:elements.join.css;
+
+.label{
+	cursor: pointer;
+}
+
+.label ion-icon{
+	opacity: 0;
+	font-size: 20px;
+	margin-left: -10px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	color: var(--color-success);
+	transition-duration: .2s;
+	transition-property: opacity;
+}
+
+.label.selected ion-icon{
+	opacity: 1;
+}
+
+.label .label-name{
+	display: inline-block;
+	margin-left: 15px;
+	padding: 4px 7px;
+	border-radius: 4px;
+	margin-right: 15px;
+}
+
+#result{
+	height: 500px;
+}

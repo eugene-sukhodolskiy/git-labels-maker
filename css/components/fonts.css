@@ -1,0 +1,44 @@
+/* FONTS */
+
+h1.heading,
+h2.heading,
+h3.heading,
+h4.heading,
+h5.heading,
+h6.heading{
+	font-weight: 500;
+}
+
+h1.heading{
+	font-size: 2.0rem;
+}
+
+h2.heading{
+	font-size: 1.6rem;
+}
+
+h3.heading{
+	font-size: 1.4rem;
+}
+
+h4.heading{
+	font-size: 1.17rem;
+}
+
+h5.heading{
+	font-size: 1.01rem;
+}
+
+h6.heading{
+	font-size: 0.87rem;
+}
+
+p{
+	line-height: 1.6rem;
+	font-weight: 300;
+}
+
+strong{
+	color: inherit;
+	font-weight: 500;
+}

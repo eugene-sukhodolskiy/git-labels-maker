@@ -1,0 +1,52 @@
+/* TABLES */
+
+.table{
+	background-color: var(--color-card-bg);
+	border-radius: var(--border-radius);
+	border: 1px solid var(--color-border);
+	width: 100%;
+	font-weight: 300;
+	border-spacing: 0;
+}
+
+.table caption{
+	text-align: left;
+	font-weight: 400;
+	padding: 20px 0px;
+	font-size: 1.3rem;
+	color: var(--color-text);
+}
+
+.table thead{}
+
+.table thead th{
+	text-align: left;
+}
+
+.table th,
+.table td{
+	padding: 12px 15px;
+}
+
+.table th{
+	font-weight: 400;
+}
+
+.table tbody,
+.table tr{
+	background-color: inherit;
+}
+
+.table td{
+	background-color: inherit;
+	transition-property: filter;
+	transition-duration: var(--animation-du);
+}
+
+.table tbody tr:nth-of-type(2n+1) td{
+	filter: brightness(.97);
+}
+
+.table tbody tr:hover td{
+	filter: brightness(.93);
+}

@@ -1,0 +1,34 @@
+:root, html{
+	/* FONT */
+	--font-main: 'Rubik', sans-serif;
+	--font-size: 16px;
+
+	/* COLORS */
+	--color-primary: #2A95BF;
+	--color-primary-light: #77BDD9;
+	/*--color-success: #89dca9;*/
+	--color-success: #03A696;
+	/*--color-success-outline: #60c888;*/
+	--color-success-outline: #038C8C;
+	--color-warning: #d8ccf5;
+	--color-warning-outline: #a685f4;
+	--color-danger: #de8c9f;
+	--color-default: #fdfdfd;
+
+	--color-text: #1a1a1a;
+	--color-text-inverse: #fefefe;
+	--color-bg: #fff;
+	--color-form-bg: #fff;
+	--color-card-bg: #fdfdfd;
+	--color-border: #dfdfdf;
+
+	--color-dark: #50514F;
+	--color-grey: #b6b6b6;
+	--color-light-grey: #c6c6c6;
+
+	/* ANIMATION */
+	--animation-du: .30s;
+
+	/* OTHER */
+	--border-radius: 5px;
+}

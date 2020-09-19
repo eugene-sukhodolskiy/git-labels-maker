@@ -1,0 +1,68 @@
+/* NOTIFICATIONS */
+
+.notification{
+	opacity: 0;
+	visibility: hidden;
+	width: 100%;
+	padding: 0;
+	border: 1px solid var(--color-border);
+	background-color: var(--color-default);
+	color: var(--color-text);
+	position: relative;
+	overflow: hidden;
+	height: 0;
+	border-radius: var(--border-radius);
+	box-sizing: border-box;
+	transition-property: opacity, visibility, height, padding;
+	transition-duration: var(--animation-du);
+}
+
+.notification-content{
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5rem;
+}
+
+.notification.show{
+	padding: 20px;
+	opacity: 1;
+	height: auto;
+	visibility: visible;
+}
+
+.notification-close{
+	position: absolute;
+	right: 4px;
+	top: 4px;
+	cursor: pointer;
+	padding: 5px;
+	text-align: center;
+}
+
+.notification-close .mdi{
+	opacity: .5;
+	transform: rotate(0deg);
+	display: inline-block;
+	transition-duration: var(--animation-du);
+	transition-property: opacity, transform;
+}
+
+.notification-close:hover .mdi{
+	opacity: 1;
+	transform: rotate(90deg);
+}
+
+.notification-close ion-icon{
+	opacity: .6;
+	font-size: 1.03rem;
+	transition-duration: var(--animation-du);
+	transition-property: opacity;
+}
+
+.notification-close:hover ion-icon{
+	opacity: .8;
+}
+
+.notification .heading{
+	margin-top: 0;
+}

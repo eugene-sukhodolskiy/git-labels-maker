@@ -1,0 +1,66 @@
+/* LISTS */
+
+ul, ol{
+	padding: 0;
+	padding-left: 20px;
+}
+
+ul{
+	list-style-type: square;
+}
+
+li{
+	margin-bottom: 15px;
+	font-weight: 300;
+}
+
+ul > li:last-of-type,
+ol > li:last-of-type{
+	margin-bottom: 0;
+}
+
+.list{
+	list-style-type: none;
+	padding-left: 0;
+	border: 1px solid var(--color-border);
+	border-radius: var(--border-radius);
+}
+
+.list li{
+	padding: 12px 18px;
+	margin-bottom: 0;
+	background-color: var(--color-card-bg);
+	transition-duration: var(--animation-du);
+	transition-property: filter;
+}
+
+.list > li:first-of-type{
+	border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.list > li:last-of-type{
+	border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.list li:hover{
+	filter: brightness(.95);
+}
+
+.counter{
+	padding: 4px 6px;
+	background-color: var(--color-default);
+	border-radius: var(--border-radius);
+}
+
+.list li .counter{
+	float: right;
+	filter: brightness(1);
+	margin-top: -5px;
+}
+
+.list li .counter.primary,
+.list li .counter.success,
+.list li .counter.warning,
+.list li .counter.danger{
+	filter: brightness(1);
+}

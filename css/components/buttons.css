@@ -1,0 +1,133 @@
+/* BUTTONS */
+
+.button{
+	display: inline-block;
+	padding: 10px 18px;
+	background-color: var(--color-default);
+	border: 1px solid var(--color-grey);
+	font-weight: 400;
+	color: var(--color-dark);
+	border-radius: var(--border-radius);
+	font-size: 1rem;
+	cursor: pointer;
+	filter: brightness(1);
+	text-decoration: none;
+	transition-duration: var(--animation-du);
+	transition-property: filter, color, background-color, border-radius;
+}
+
+.button:hover{
+	filter: brightness(1.07);
+	text-decoration: none;
+	border-radius: calc(var(--border-radius) + 2px);
+}
+
+.button.small{
+	font-size: .85rem;
+	padding: 6px 9px;
+	font-weight: 300;
+}
+
+.button.big{
+	font-size: 1.10rem;
+	padding: 10px 22px;
+	font-weight: 500;
+}
+
+.button .mdi{
+	font-size: 1em;
+	left: -5px;
+}
+
+.button.small .mdi{
+	font-size: 1em;
+	left: 0px;
+}
+
+.button.big .mdi{
+	font-size: 1.3em;
+	left: -10px;
+	top: 2px;
+}
+
+.button.ion{
+	padding-left: calc(12px + 1.5em);
+}
+
+.button.small.ion{
+	padding-left: calc(12px + 1em);
+}
+
+.button.big.ion{
+	padding-left: calc(12px + 2em);
+}
+
+.button.ion ion-icon{
+	font-size: 1.1em;
+	position: absolute;
+	top: 10px;
+	left: 14px;
+}
+
+.button.small.ion ion-icon{
+	font-size: 0.9em;
+	position: absolute;
+	top: 7px;
+	left: 6px;
+}
+
+.button.big.ion ion-icon{
+	font-size: 1.2em;
+	position: absolute;
+	top: 9px;
+	left: 12px;
+}
+
+.button.outline{
+	background-color: transparent;	
+}
+
+.button.primary.outline{
+	color: var(--color-primary);
+}
+
+.button.success.outline{
+	color: var(--color-success-outline);
+	border-color: var(--color-success-outline);
+}
+
+.button.warning.outline{
+	color: var(--color-warning-outline);
+	border-color: var(--color-warning-outline);
+}
+
+.button.danger.outline{
+	color: var(--color-danger);
+}
+
+.button.outline:hover{
+	background-color: var(--color-default);
+	filter: brightness(1);
+}
+
+.button.primary.outline:hover{
+	background-color: var(--color-primary);
+	color: var(--color-default);
+}
+
+.button.success.outline:hover{
+	background-color: var(--color-success);
+	border-color: var(--color-success);
+	color: var(--color-default);
+}
+
+.button.warning.outline:hover{
+	background-color: var(--color-warning);
+	color: var(--color-dark);
+	border-color: var(--color-warning);
+}
+
+.button.danger.outline:hover{
+	background-color: var(--color-danger);
+	color: var(--color-default);
+}

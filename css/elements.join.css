@@ -1,0 +1,24 @@
+*:focus{
+	outline: none;
+}
+
+body{
+	font-family: var(--font-main);
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-size: var(--font-size);
+}
+
+@join:vars.css;
+@join:components/blocks.css;
+@join:components/fonts.css;
+@join:components/links.css;
+@join:components/forms.css;
+@join:components/buttons.css;
+@join:components/cards.css;
+@join:components/lists.css;
+@join:components/tables.css;
+@join:components/loader.css;
+@join:components/notifications.css;
+@join:components/color-schema.css;
+@join:components/advantages.css;
