@@ -1,15 +1,17 @@
 [
-	{"label": "html/css", "color": "#e34c26", "description": "Language", "inverse": true},
+	{"label": "html/css", "color": "#e34c26", "description": "Language"},
 	{"label": "php", "color": "#8993be", "description": "Language"},
 	{"label": "js", "color": "#f0db4f", "description": "Language"},
 	{"label": "create", "color": "#8af2d4", "description": "create something new"},
-	{"label": "design", "color": "#890b33", "description": "design this", "inverse": true},
-	{"label": "inprogress", "color": "#322a8c", "description": "Now in progress", "inverse": true},
-	{"label": "rewrite", "color": "#b217c6", "description": "Need to rewrite", "inverse": true},
+	{"label": "design", "color": "#890b33", "description": "design this"},
+	{"label": "inprogress", "color": "#322a8c", "description": "Now in progress"},
+	{"label": "rewrite", "color": "#b217c6", "description": "Need to rewrite"},
 	{"label": "remove", "color": "#f4b238", "description": "Remove this"},
-	{"label": "component", "color": "#006b75", "description": "Work with component", "inverse": true},
-	{"label": "adaptive", "color": "#0e8a16", "description": "adaptive html/css", "inverse": true},
+	{"label": "component", "color": "#006b75", "description": "Work with component"},
+	{"label": "adaptive", "color": "#0e8a16", "description": "adaptive html/css"},
 	{"label": "prepare", "color": "#8be577", "description": "Prepare some libs and other"},
-	{"label": "bug", "color": "#d73a4a", "description": "Something is not working", "inverse": true},
-	{"label": "documentation", "color": "#0075ca", "description": "Improvements or additions to documentation", "inverse": true}
+	{"label": "bug", "color": "#d73a4a", "description": "Something is not working"},
+	{"label": "documentation", "color": "#0075ca", "description": "Improvements or additions to documentation"},
+	{"label": "text", "color": "#BFDADC", "description": "Need write or edit some text"},
+	{"label": "ui/ux", "color": "#E99695", "description": "Design UI or UX"}
 ]
