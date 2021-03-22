@@ -13,5 +13,6 @@
 	{"label": "bug", "color": "#d73a4a", "description": "Something is not working"},
 	{"label": "documentation", "color": "#0075ca", "description": "Improvements or additions to documentation", "inverse": true},
 	{"label": "text", "color": "#BFDADC", "description": "Need write or edit some text"},
-	{"label": "ui/ux", "color": "#E99695", "description": "Design UI or UX"}
+	{"label": "ui/ux", "color": "#E99695", "description": "Design UI or UX"},
+	{"label": "edit", "color": "#2F5099", "description": "Updating existing code", "inverse": true}
 ]
